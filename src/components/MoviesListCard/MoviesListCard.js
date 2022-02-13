@@ -1,11 +1,11 @@
-import css from './MovieListCard.module.css'
 import {Link} from "react-router-dom";
+
+import css from './MovieListCard.module.css'
+import {baseUrlImg} from "../../configs";
 
 export default function MoviesListCard({movie}) {
 
     const {id, original_title, poster_path, release_date, vote_average} = movie;
-
-    const baseUrlImg = 'https://image.tmdb.org/t/p/w300';
 
     return (
         <div className={css.card}>

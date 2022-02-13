@@ -20,7 +20,7 @@ export default function MoviesList() {
 
     return (
         <>
-            {status === 'pending' && <h1>Loading...</h1>}
+            {/*{status === 'pending' && <h1>Loading...</h1>}*/}
             {error && <h2>{error}</h2>}
             {movieArr?.map(movie => <MoviesListCard key={movie.id} movie={movie}/>)}
             <div className={css.button}>

@@ -6,8 +6,8 @@ import MovieDetailsPage from "./pages/MovieDetailsPage/MovieDetailsPage";
 import GenresPage from "./pages/GenresPage/GenresPage";
 import MoviesByGenresPage from "./pages/MoviesByGenresPage/MoviesByGenresPage";
 
-
 export default function App() {
+
     return (
         <div>
             <Routes>

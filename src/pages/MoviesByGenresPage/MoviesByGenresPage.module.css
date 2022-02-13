@@ -1,5 +1,30 @@
 .wrap {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.button button {
+    width: 80px;
+    height: 30px;
+    background-color: #6717ad;
+    border: 2px solid #c7c5c5;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.titlePage {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
 }
