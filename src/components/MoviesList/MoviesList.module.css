@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.titlePage {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.button button {
+    width: 80px;
+    height: 30px;
+    background-color: #6717ad;
+    border: 2px solid #c7c5c5;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,45 @@
+.wrap {
+    display: flex;
+    column-gap: 100px;
+    padding: 50px;
+    background-color: #081747;
+    color: white;
+}
+
+.wrap img {
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.rating, .genres {
+    font-size: 20px;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.genreItem {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.description {
+    margin: 50px 0;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    color: #d8e6ee;
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

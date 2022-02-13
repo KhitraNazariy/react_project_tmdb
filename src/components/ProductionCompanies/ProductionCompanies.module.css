@@ -1,0 +1,16 @@
+.wrap {
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.wrap img {
+    width: 300px;
+}
+
+.desc p {
+    font-size: 18px;
+    margin: 10px 0;
+}
